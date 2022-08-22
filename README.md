@@ -2,5 +2,6 @@
   <h1>Something is loading !</h1>
   <img width="70%" src="https://github.com/Moadtell/Moadtell/blob/main/AqCa.gif" />
 </div>
-
+<div align="center">
 [![<username>'s 42 stats](https://badge.mediaplus.ma/greenbinary/mtellami)](https://github.com/mtellami/badge42)
+  </div>
