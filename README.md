@@ -4,4 +4,4 @@
 </div>
 
 
-[![<username>'s 42 stats](https://badge.mediaplus.ma/greenbinary/mtellami)](https://github.com/mtellami/badge42)
+[![(https://badge.mediaplus.ma/greenbinary/mtellami)](https://github.com/mtellami/badge42)
