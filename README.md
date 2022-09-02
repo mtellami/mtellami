@@ -17,6 +17,11 @@
 ---
 
 ### Contact :
+<div align="center">
 <a href="https://twitter.com/mtellami" target="_blank">
 <img src="https://img.shields.io/badge/twitter-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white"/>
 </a>
+<a href="https://www.instagram.com/mtellami/" target="_blank">
+<img src="https://img.shields.io/badge/instagram-%ff5851db.svg?color=C13584&style=for-the-badge&logo=instagram&logoColor=white"/>
+</a>
+</div>
