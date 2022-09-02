@@ -6,9 +6,9 @@
 ---
 
 ***~$ Whoami :***
-- Moad Tellami.
-- Computer Science Student At 1337.
-- <a href="https://www.instagram.com/mtellami/">📦</a> 
+- Moad Tellami
+- Computer Science Student At <a href="https://1337.ma">1337</a>
+- Front End Dev
 
 ---
 
