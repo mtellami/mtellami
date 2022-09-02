@@ -6,7 +6,7 @@
 ---
 
 ***$Whoami :***
-- moad tellami.
+- Moad Tellami.
 - Computer Science Student At 1337.
 - <a href="https://www.instagram.com/mtellami/">📦</a> 
 
