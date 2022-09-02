@@ -13,3 +13,8 @@
 ---
 
 [![mtellami's 42 stats](https://badge.mediaplus.ma/greenbinary/mtellami?UM6P=off)](https://github.com/oakoudad/badge42)
+
+
+<a href="https://twitter.com/mtellami" target="_blank">
+<img src="https://img.shields.io/badge/twitter-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
