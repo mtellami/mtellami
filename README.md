@@ -22,13 +22,6 @@
 
 ### Contact :
 <div align="center">
-<a href="https://twitter.com/mtellami" target="_blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="45" width="60"/>
-</a>
-<a href="https://www.instagram.com/mtellami/" target="_blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="45" width="60"/>
-</a>
-<a href="https://discord.gg/658407942642597900" target="_blank">
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" height="45" width="60"/>
-</a>
+<a href="https://twitter.com/mtellami" target="blank" ><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mtellami" height="30" width="40" /></a>
+<a href="https://instagram.com/mtellami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mtellami" height="30" width="40" /></a>
 </div>
