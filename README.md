@@ -11,11 +11,11 @@
 
 ---
 
-<div align="center">
+<!-- <div align="center">
 
 [![mtellami's 42 stats](https://badge.mediaplus.ma/greenbinary/mtellami?UM6P=off)](https://github.com/oakoudad/badge42)
 
-</div>
+</div> -->
 
 ---
 
