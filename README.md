@@ -1,23 +1,21 @@
 <h3 font-famly="bison">Hi There, Welcome Home  👾!</h3>
 <div align="center">
-  <img width="100%" src="https://media.giphy.com/media/pOZhmE42D1WrCWATLK/giphy.gif"/>
+
+  [![mtellami's 42 stats](https://badge42.vercel.app/api/v2/cla524xep00060fjuwvb98esz/stats?cursusId=21&coalitionId=79)](https://github.com/JaeSeoKim/badge42)
+  
 </div></br>
 
 ---
 
 ***~$ Whoami :***
-- Moad Tellami
 - Computer Science Student At <a href="https://1337.ma">1337</a>
-
+- ...
 ---
 
-<!-- <div align="center">
+<div align="center">
 
-[![mtellami's 42 stats](https://badge.mediaplus.ma/greenbinary/mtellami?UM6P=off)](https://github.com/oakoudad/badge42)
+</div>
 
-</div> -->
-
----
 
 ### Contact :
 <div align="center">
