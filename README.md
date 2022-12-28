@@ -9,8 +9,11 @@
 
 ***~$ Whoami :***
 - Computer Science Student At <a href="https://1337.ma">1337</a>
-- Currently learning :</br> <img height=30 src="https://github.com/mtellami/mtellami/blob/main/srcs/c.svg" href="#"> <img height=30 src="https://github.com/mtellami/mtellami/blob/main/srcs/bash.svg" href="#">
-- ...
+- Currently learning :</br>
+<div align="center">
+<img height=30 align="center" src="https://github.com/mtellami/mtellami/blob/main/srcs/c.svg"> <img align="center" height=30 src="https://github.com/mtellami/mtellami/blob/main/srcs/bash.svg" href="#">
+</div></br>
+
 ---
 
 <div align="center">
