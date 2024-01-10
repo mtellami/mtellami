@@ -10,7 +10,7 @@ moad tellami
 OS:   ArchLinux / i3 / Alacritty
 IDE:  LunarVim / Neovim
 Technology:   C/C++, Docker, Typescript, ReactJs, ExpressJs, Mongodb, Mysql
-Learning:     Go, VueJs
+Learning:     *
 ```
 
 ---
