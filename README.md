@@ -6,4 +6,5 @@ Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/mtel
 
 
 ## 🛠️ Technologies & Tools
-![.](https://skillicons.dev/icons?i=git,bash,c,cpp,java,go,docker,nginx,html,css,js,tailwindcss,ts,react,redux,angular,rxjs,dart,flutter,nodejs,expressjs,nestjs,postgres,mysql,mongodb,redis,,,,,,)
+
+<img src="https://skillicons.dev/icons?i=git,bash,c,cpp,java,go,docker,nginx,html,css,js,tailwindcss,ts,react,redux,angular,rxjs,dart,flutter,nodejs,expressjs,nestjs,postgres,mysql,mongodb,redis" width="600"/>
