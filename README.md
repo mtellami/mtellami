@@ -1,21 +1,9 @@
-<h3 align="center" color="gray">Hi There, Welcome to my Github profile! </h3>
+# Hi There, Welcome to my Github profile 👋
 
-```zsh
-> whoami
-```
+I'm a **Full Stack Developer** based in ***Marrakesh, Morocco***, Passionate about building scalable, high-performance apps.
 
-```csharp
-moad tellami
-----------------------------
-I build things
-```
+## 🛠️ Technologies & Tools
+![.](https://skillicons.dev/icons?i=git,bash,c,cpp,java,go,docker,nginx,html,css,js,tailwindcss,ts,react,redux,angular,rxjs,dart,flutter,nodejs,expressjs,nestjs,postgres,mysql,mongodb,redis)
 
----
-
-```csharp
-  ✌️   Enjoy to do programming and sharing knowledge
-  ❤️   Love to writing code and learning new features
-  📧   Reach me anytime: moadtell@gmail.com
-```
-
----
+## 📫 Reach me:
+Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/mtellami).
