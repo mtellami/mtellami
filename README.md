@@ -1,6 +1,6 @@
 # Hi There, Welcome to my Github profile 👋
 
-I'm a **Full Stack Developer** based in ***Marrakesh, Morocco***, Passionate about building scalable, high-performance apps.
+I'm a **Software Engineer** based in ***Casablanca, Morocco***, Passionate about building scalable, high-performance apps.
 <br/></br>
 Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/mtellami).
 
