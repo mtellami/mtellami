@@ -3,7 +3,7 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1.3 cm, % seperation between body and page edge from the top
+    top=0.5 cm, % seperation between body and page edge from the top
     bottom=1.3 cm, % seperation between body and page edge from the bottom
     left=2 cm, % seperation between body and page edge from the left
     right=2 cm, % seperation between body and page edge from the right
@@ -56,17 +56,17 @@
 \setlength{\columnsep}{0.15cm} % set column seperation
 \pagenumbering{gobble} % no page numbering
 
-\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titleformat{\section}{\needspace{3\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.15 cm
 }{
     % bottom space:
-    0.2 cm
+    0.15 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
@@ -140,7 +140,7 @@
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in July 2026}\hspace{\widthof{Last updated in July 2026}}
+        \small\color{gray}\textit{Dernière mise à jour en juillet 2026}\hspace{\widthof{Dernière mise à jour en juillet 2026}}
     }}}%
   }%
 }%
@@ -174,106 +174,106 @@
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mtellami}{linkedin/mtellami}}%
     \end{header}
-    \vspace{15 pt}
+    \vspace{8 pt}
 
     % =========================== SUMMARY ==========================
-     Software Engineer with 2+ years of experience building full-stack applications using Django,  NestJS, Angular, React, and PostgreSQL. Experienced in geospatial systems, AI integration, authentication, and scalable backend services. with a focus on designing maintainable software and solving complex engineering problems. \vspace{5 pt}
+     Ingénieur logiciel avec plus de 2 ans d'expérience dans le développement d'applications full-stack utilisant Django, NestJS, Angular, React et PostgreSQL. Expérimenté dans les systèmes géospatiaux, l'intégration de l'IA, l'authentification et les services backend évolutifs, avec un accent sur la conception de logiciels maintenables et la résolution de problèmes d'ingénierie complexes. \vspace{5 pt}
 
 
     % =========================== EXPERIENCE ==========================
-    \section{Experience}
+    \section{Expérience}
         \begin{twocolentry}{
-            Jan 2026 – Jul 2026
+            Jan 2026 – Juil 2026
         }
-        \textbf{Delivery AI Software Engineering Intern} -- \textbf{\hrefWithoutArrow{https://www.bcg.com/x}{BCG}} \end{twocolentry}
+        \textbf{Stagiaire Ingénieur Logiciel AI Delivery} -- \textbf{\hrefWithoutArrow{https://www.bcg.com/x}{BCG}} \end{twocolentry}
         \vspace{0.10 cm}
 
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed interactive \textbf{geospatial} visualizations for environmental datasets, including wildfire, earthquake, drought, and other hazard data, enabling users to explore, compare, and analyze layered risk information.
-                \item Integrated \textbf{AI} models into production workflows to automate data processing and classification, exposing model predictions through the application's analysis pipeline.
-                \item Collaborated closely with \textbf{UI/UX} designers to implement responsive \textbf{React} and \textbf{Tailwind CSS} interfaces, translating design specifications into polished user experiences aligned with client requirements.
-                \item Implemented \textbf{REST API} endpoints using \textbf{Django} REST Framework and \textbf{PostgreSQL}, following \textbf{REST} best practices and integrating \textbf{OIDC/Azure AD} authentication with role-based access control.
-                \item Performed end-to-end \textbf{QA} across the platform components by executing functional testing, identifying defects, resolving bugs and security vulnerabilities, and improving application stability before production releases.
+                \item Développé des visualisations \textbf{géospatiales} interactives pour des jeux de données environnementaux, notamment les feux de forêt, les tremblements de terre, les sécheresses et d'autres données de risques, permettant aux utilisateurs d'explorer, de comparer et d'analyser des informations de risque en couches.
+                \item Intégré des modèles d'\textbf{IA} dans les flux de production pour automatiser le traitement et la classification des données, exposant les prédictions des modèles via le pipeline d'analyse de l'application.
+                \item Collaboré étroitement avec les designers \textbf{UI/UX} pour implémenter des interfaces \textbf{React} et \textbf{Tailwind CSS} réactives, traduisant les spécifications de conception en expériences utilisateur soignées et conformes aux exigences des clients.
+                \item Implémenté des endpoints \textbf{REST API} avec \textbf{Django} REST Framework et \textbf{PostgreSQL}, en suivant les bonnes pratiques \textbf{REST} et en intégrant l'authentification \textbf{OIDC/Azure AD} avec contrôle d'accès basé sur les rôles.
+                \item Effectué un \textbf{QA} de bout en bout sur les composants de la plateforme en exécutant des tests fonctionnels, en identifiant les défauts, en résolvant les bugs et les vulnérabilités de sécurité, et en améliorant la stabilité de l'application avant les mises en production.
             \end{highlights}
         \end{onecolentry}
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Jun 2024 – Dec 2025
+            Juin 2024 – Déc 2025
         }
-        \textbf{Full Stack Developer} -- \textbf{\hrefWithoutArrow{https://www.ariastechsolutions.com/}{Arias Tech Solutions}} \end{twocolentry}
+        \textbf{Développeur Full Stack} -- \textbf{\hrefWithoutArrow{https://www.ariastechsolutions.com/}{Arias Tech Solutions}} \end{twocolentry}
         \vspace{0.10 cm}
 
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed modular UI components and responsive dashboards using \textbf{Angular}, \textbf{Tailwind CSS}, and \textbf{PrimeNG}, enabling low-code data visualization for business users.
-                \item Built scalable backend services with \textbf{NestJS} in a monorepo architecture, integrating data from \textbf{REST APIs}, \textbf{WebSockets}, and \textbf{SQL/NoSQL} databases.
-                \item Designed real-time data pipelines with \textbf{Kafka} and \textbf{MQTT} to process ocean sensor telemetry for marine ecosystem monitoring.
-                \item Engineered dynamic geospatial visualizations using \textbf{Mapbox GL JS}, and implemented alerting systems with threshold-based triggers and multichannel notifications.
-                \item Contributed to the development of predictive analytics features, automated reporting, and secure authentication and authorization using \textbf{Keycloak}, supporting role-based access control across environmental data platforms.
+                \item Développé des composants UI modulaires et des tableaux de bord réactifs avec \textbf{Angular}, \textbf{Tailwind CSS} et \textbf{PrimeNG}, permettant la visualisation de données low-code pour les utilisateurs métier.
+                \item Construit des services backend évolutifs avec \textbf{NestJS} dans une architecture monorepo, intégrant des données provenant de \textbf{REST APIs}, \textbf{WebSockets} et bases de données \textbf{SQL/NoSQL}.
+                \item Conçu des pipelines de données temps réel avec \textbf{Kafka} et \textbf{MQTT} pour traiter la télémétrie des capteurs océaniques afin de surveiller les écosystèmes marins.
+                \item Développé des visualisations géospatiales dynamiques avec \textbf{Mapbox GL JS}, et implémenté des systèmes d'alerte basés sur des seuils avec notifications multicanaux.
+                \item Contribué au développement de fonctionnalités d'analytique prédictive, de rapports automatisés et d'authentification et autorisation sécurisées avec \textbf{Keycloak}, supportant le contrôle d'accès basé sur les rôles sur les plateformes de données environnementales.
             \end{highlights}
         \end{onecolentry}
         \vspace{0.2 cm}
 
 
     % =========================== EDUCATION ==========================
-    \section{Education}
+    \section{Formation}
         \begin{twocolentry}{
-            Oct 2022 – Dec 2025
+            Oct 2022 – Déc 2025
         }
-        \textbf{\href{https://um6p.ma/}{UM6P} - \href{https://1337.ma/en/}{1337}\href{https://www.42network.org/}{(42 Network)}} | Computer Science degree\end{twocolentry}
+        \textbf{\href{https://um6p.ma/}{UM6P} - \href{https://1337.ma/en/}{1337}\href{https://www.42network.org/}{(42 Network)}} | Diplôme en informatique\end{twocolentry}
         \vspace{0.10 cm}
 
-        Completed an intensive project-based software engineering program focused on full-stack development, algorithms, system design, and networking. Gained deep hands-on experience in programming (C, C++, JavaScript), data structures, databases, operating systems, network protocols, security, and collaborative software development practices (Linux, Bash, Git, and Docker). Emphasis on problem solving, peer learning, and real-world application of engineering principles.
+        Diplômé d'un programme intensif de génie logiciel axé sur les projets, portant sur le développement full-stack, les algorithmes, la conception de systèmes et la mise en réseau. Acquit une expérience pratique approfondie en programmation (C, C++, JavaScript), structures de données, bases de données, systèmes d'exploitation, protocoles réseau, sécurité et pratiques de développement logiciel collaboratif (Linux, Bash, Git et Docker). L'accent est mis sur la résolution de problèmes, l'apprentissage entre pairs et l'application concrète des principes d'ingénierie.
 
     % =========================== PROJECTS ==========================
-    % \section{Projects}
+    % \section{Projets}
     %     \begin{onecolentry}
     %         \begin{highlights}
-    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{Pong game web application}}\\
-    %         A full-stack multiplayer Pong game built entirely with TypeScript, using React.js and Tailwind CSS for a responsive, modern UI, and NestJS, PostgreSQL, and Prisma on the backend.\\Worked as part of a team to implement real-time gameplay, chat functionality, user profiles, and authentication. Emphasized modular design, clean architecture, and secure API development while maintaining seamless collaboration through Git and Agile workflows.
+    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{Application web de jeu Pong}}\\
+    %         Un jeu Pong multijoueur full-stack entièrement développé en TypeScript, utilisant React.js et Tailwind CSS pour une interface réactive et moderne, et NestJS, PostgreSQL et Prisma pour le backend.\\Travaillé en équipe pour implémenter le gameplay en temps réel, la fonctionnalité de chat, les profils utilisateurs et l'authentification. L'accent est mis sur la conception modulaire, l'architecture propre et le développement d'API sécurisées tout en maintenant une collaboration fluide via Git et les workflows Agile.
     %         \vspace{0.10 cm}
     %
-    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{HTTP server}}\\
-    %         Built a custom HTTP server in C++ as part of a team project, applying object-oriented programming (OOP) principles and low-level TCP socket programming to handle HTTP requests and responses. Gained a deep understanding of how web servers operate under the hood, including connection handling, parsing, routing, and response generation inspired by NGINX.
+    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{Serveur HTTP}}\\
+    %         Construit un serveur HTTP personnalisé en C++ dans le cadre d'un projet d'équipe, en appliquant les principes de programmation orientée objet (POO) et la programmation de sockets TCP de bas niveau pour gérer les requêtes et réponses HTTP. Compris en profondeur le fonctionnement interne des serveurs web, notamment la gestion des connexions, l'analyse, le routage et la génération de réponses, inspiré de NGINX.
     %         \end{highlights}
     %     \end{onecolentry}
 
     % =========================== SKILLS ==========================
-    \section{Skills}
+    \section{Compétences}
 
         \begin{onecolentry}
-            \textbf{Languages:} Java, Python, TypeScript, JavaScript, SQL, C/C++
+            \textbf{Langages :} Java, Python, TypeScript, JavaScript, SQL, C/C++
         \end{onecolentry}
         \vspace{0.2 cm}
         
         \begin{onecolentry}
-            \textbf{Frontend:} React, Next.js, Angular, Tailwind CSS, PrimeNG, Shadcn, TanStack
+            \textbf{Frontend :} React, Next.js, Angular, Tailwind CSS, PrimeNG, Shadcn, TanStack
         \end{onecolentry}
         \vspace{0.2 cm}
         
         \begin{onecolentry}
-            \textbf{Backend:} SpringBoot, Django, FastAPI, NestJS, Express.js, WebSockets, Kafka
+            \textbf{Backend :} SpringBoot, Django, FastAPI, NestJS, Express.js, WebSockets, Kafka
         \end{onecolentry}
         \vspace{0.2 cm}
         
         \begin{onecolentry}
-            \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis
+            \textbf{Bases de données :} PostgreSQL, MySQL, MongoDB, Redis
         \end{onecolentry}
         \vspace{0.2 cm}
         
         \begin{onecolentry}
-            \textbf{Tools:} Git, Docker, Bash, Linux, Azure DevOps, Jira
+            \textbf{Outils :} Git, Docker, Bash, Linux, Azure DevOps, Jira
         \end{onecolentry}
         \vspace{0.2 cm}
 
     % =========================== LANGUAGES ==========================
-    \section{Languages}
-        \textbf{Arabic:} Native
+    \section{Langues}
+        \textbf{Arabe :} Langue maternelle
         \hspace{1 cm}
-        \textbf{English:} Professional proficiency
+        \textbf{Anglais :} Courant
         \hspace{1 cm}
-        \textbf{French:} Elementary proficiency
+        \textbf{Français :} Notions élémentaires
 
 \end{document}
