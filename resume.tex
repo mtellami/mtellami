@@ -1,13 +1,13 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[7pt, letterpaper]{extarticle}
 
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1.3 cm, % seperation between body and page edge from the top
-    bottom=1.3 cm, % seperation between body and page edge from the bottom
-    left=2 cm, % seperation between body and page edge from the left
-    right=2 cm, % seperation between body and page edge from the right
-    footskip=1.0 cm, % seperation between body and footer
+    top=0.8 cm, % seperation between body and page edge from the top
+    bottom=0.8 cm, % seperation between body and page edge from the bottom
+    left=1.5 cm, % seperation between body and page edge from the left
+    right=1.5 cm, % seperation between body and page edge from the right
+    footskip=0.8 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage{titlesec} % for customizing section titles
@@ -63,20 +63,20 @@
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.05 cm
 }{
     % bottom space:
-    0.2 cm
+    0.10 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.05 cm,
+        parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0 cm + 10pt
+        leftmargin=0.6 cm
     ]
 }{
     \end{itemize}
@@ -129,7 +129,7 @@
 } % new environment for three column entries
 
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.0}
 }{
     \par\kern\topsep
 } % new environment for the header
@@ -160,120 +160,137 @@
 
     % =========================== HEADER ==========================
     \begin{header}
-        \fontsize{25 pt}{25 pt}\selectfont Moad Tellami
+        \fontsize{18 pt}{18 pt}\selectfont Moad Tellami
 
-        \vspace{5 pt}
-        \normalsize
-        \mbox{\hrefWithoutArrow{mailto:moadtell@gmail.com}{moadtell@gmail.com}}%
+        \vspace{4 pt}
+        \small
+        \hfill%
+        \hspace{1.4cm}%
+        \mbox{moadtell@gmail.com}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{tel:+212693566907}{+212 693 56 69 07}}%
+        \mbox{+212 693 56 69 07}%
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mtellami}{linkedin/mtellami}}%
+        \mbox{Casablanca, Morocco}%
+        \hfill%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mtellami}{\faLinkedin}}%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/mtellami}{\faGithub}}%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://www.mtellami.me}{\faGlobe}}%
     \end{header}
-    \vspace{15 pt}
+    \vspace{10 pt}
 
     % =========================== SUMMARY ==========================
-     Software Engineer with 2+ years of experience building full-stack applications using Django,  NestJS, Angular, React, and PostgreSQL. Experienced in geospatial systems, AI integration, authentication, and scalable backend services. with a focus on designing maintainable software and solving complex engineering problems. \vspace{5 pt}
+     Full-stack Software Engineer with 2+ years of experience shipping production web applications and backend services, with hands-on experience integrating AI models into real engineering workflows. \vspace{5 pt}
 
 
     % =========================== EXPERIENCE ==========================
     \section{Experience}
         \begin{twocolentry}{
-            Jan 2026 – Jul 2026
+            Jan 2026 – Jul 2026 \\ {\small\textit{\hrefWithoutArrow{https://www.google.com/maps/search/Casablanca+Morocco}{Casablanca - Morocco}}}
         }
-        \textbf{Delivery AI Software Engineering Intern} -- \textbf{\hrefWithoutArrow{https://www.bcg.com/x}{BCG}} \end{twocolentry}
+        \textbf{Software Engineer} -- \textbf{\textit{\hrefWithoutArrow{https://www.bcg.com/x}{BCG}}} \\ {\small\textit{Internship}} \end{twocolentry}
         \vspace{0.10 cm}
 
         \begin{onecolentry}
+            \hspace{0.3 cm}\textbf{Geospatial Risk Assessment Platform} \\
             \begin{highlights}
-                \item Developed interactive \textbf{geospatial} visualizations for environmental datasets, including wildfire, earthquake, drought, and other hazard data, enabling users to explore, compare, and analyze layered risk information.
-                \item Integrated \textbf{AI} models into production workflows to automate data processing and classification, exposing model predictions through the application's analysis pipeline.
-                \item Collaborated closely with \textbf{UI/UX} designers to implement responsive \textbf{React} and \textbf{Tailwind CSS} interfaces, translating design specifications into polished user experiences aligned with client requirements.
-                \item Implemented \textbf{REST API} endpoints using \textbf{Django} REST Framework and \textbf{PostgreSQL}, following \textbf{REST} best practices and integrating \textbf{OIDC/Azure AD} authentication with role-based access control.
-                \item Performed end-to-end \textbf{QA} across the platform components by executing functional testing, identifying defects, resolving bugs and security vulnerabilities, and improving application stability before production releases.
+                \item Built map-based risk visualizations — wildfire, drought, earthquake, and other environmental hazards, using \textbf{React}, \textbf{Tailwind CSS}, and \textbf{Mapbox GL}, plotting environmental data to support risk assessment for investment decisions.
+                \item Implemented metrics visualizations using \textbf{Chart.js}, translating client-confirmed Figma designs into responsive UI in collaboration with the UI/UX team.
+                \item Implemented backend REST API endpoints and risk calculation logic in \textbf{Django} with \textbf{PostgreSQL}, and integrated a trained LLM into the risk assessment pipeline to enrich environmental risk scoring.
             \end{highlights}
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.20 cm}
 
         \begin{twocolentry}{
-            Jun 2024 – Dec 2025
+            Dec 2024 – Dec 2025 \\ {\small\textit{\hrefWithoutArrow{https://www.google.com/maps/search/Marrakesh+Morocco}{Marrakesh - Morocco}}}
         }
-        \textbf{Full Stack Developer} -- \textbf{\hrefWithoutArrow{https://www.ariastechsolutions.com/}{Arias Tech Solutions}} \end{twocolentry}
+        \textbf{Full Stack Developer} -- \textbf{\textit{\hrefWithoutArrow{https://www.ariastechsolutions.com/}{Arias Tech Solutions}}} \\ {\small\textit{Full-time}} \end{twocolentry}
         \vspace{0.10 cm}
 
         \begin{onecolentry}
+            \hspace{0.3 cm}\textbf{Marine Ecosystem Monitoring Platform} \\
             \begin{highlights}
-                \item Developed modular UI components and responsive dashboards using \textbf{Angular}, \textbf{Tailwind CSS}, and \textbf{PrimeNG}, enabling low-code data visualization for business users.
-                \item Built scalable backend services with \textbf{NestJS} in a monorepo architecture, integrating data from \textbf{REST APIs}, \textbf{WebSockets}, and \textbf{SQL/NoSQL} databases.
-                \item Designed real-time data pipelines with \textbf{Kafka} and \textbf{MQTT} to process ocean sensor telemetry for marine ecosystem monitoring.
-                \item Engineered dynamic geospatial visualizations using \textbf{Mapbox GL JS}, and implemented alerting systems with threshold-based triggers and multichannel notifications.
-                \item Contributed to the development of predictive analytics features, automated reporting, and secure authentication and authorization using \textbf{Keycloak}, supporting role-based access control across environmental data platforms.
+                \item Built frontend features — IoT device management, protected area creation, and investor-facing area health views — for a government ocean conservation platform, using \textbf{React}, \textbf{Tailwind CSS}, \textbf{Shadcn UI}, \textbf{Mapbox GL} for geospatial data, and \textbf{AmCharts} for species and environmental metrics.
+                \item Implemented backend REST API endpoints and modules in \textbf{NestJS}, working with \textbf{GeoJSON} data across \textbf{MongoDB} and \textbf{Redis} caching to efficiently serve large environmental datasets.
+                \item Built an \textbf{MQTT} microservice to ingest real-time telemetry from ocean sensors and forward it to a \textbf{Kafka} server for downstream processing.
+            \end{highlights}
+
+            \vspace{0.15 cm}
+            \hspace{0.3 cm}\textbf{Oil Spill Detection Platform} \\
+            \begin{highlights}
+                \item Contributed to connecting the data science team's satellite spill data into the platform and built the alerting and visualization features, using \textbf{NestJS}, \textbf{Next.js}, and \textbf{PostgreSQL}.
             \end{highlights}
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.20 cm}
+
+        \begin{twocolentry}{
+            Jun 2024 – Dec 2024 \\ {\small\textit{\hrefWithoutArrow{https://www.google.com/maps/search/Marrakesh+Morocco}{Marrakesh - Morocco}}}
+        }
+        \textbf{Full Stack Developer} -- \textbf{\textit{\hrefWithoutArrow{https://www.ariastechsolutions.com/}{Arias Tech Solutions}}} \\ {\small\textit{Internship}} \end{twocolentry}
+        \vspace{0.10 cm}
+
+        \begin{onecolentry}
+            \hspace{0.3 cm}\textbf{Data Visualization Platform} \\
+            \begin{highlights}
+                \item Built dashboard UI enabling project managers to create custom multi-source visualizations — including charts, maps — using \textbf{Angular}, \textbf{PrimeNG}, \textbf{Tailwind CSS}, and \textbf{NgRx}, giving monitoring stations a unified view of monitored areas.
+                \item Integrated data from multiple source types (message brokers, databases, files, and sockets) into the visualization layer, using \textbf{AmCharts} and \textbf{Mapbox GL JS} for chart and map rendering.
+                \item Implemented backend REST API endpoints and data access layers in \textbf{NestJS} with \textbf{MongoDB}, and integrated \textbf{Keycloak} authentication with role-based access control.
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.20 cm}
 
 
     % =========================== EDUCATION ==========================
     \section{Education}
         \begin{twocolentry}{
-            Oct 2022 – Dec 2025
+            Oct 2022 – Dec 2024 \\ {\small\textit{\hrefWithoutArrow{https://www.google.com/maps/search/Ben+Guerir+Morocco}{Ben Guerir - Morocco}}}
         }
-        \textbf{\href{https://um6p.ma/}{UM6P} - \href{https://1337.ma/en/}{1337}\href{https://www.42network.org/}{(42 Network)}} | Computer Science degree\end{twocolentry}
+        \textbf{Digital Technologies Architect Program} -- \textbf{\textit{\hrefWithoutArrow{https://um6p.ma/}{UM6P}/\hrefWithoutArrow{https://1337.ma/en/}{1337}}} \\ {\small\textit{Student}} \end{twocolentry}
         \vspace{0.10 cm}
 
-        Completed an intensive project-based software engineering program focused on full-stack development, algorithms, system design, and networking. Gained deep hands-on experience in programming (C, C++, JavaScript), data structures, databases, operating systems, network protocols, security, and collaborative software development practices (Linux, Bash, Git, and Docker). Emphasis on problem solving, peer learning, and real-world application of engineering principles.
-
-    % =========================== PROJECTS ==========================
-    % \section{Projects}
-    %     \begin{onecolentry}
-    %         \begin{highlights}
-    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{Pong game web application}}\\
-    %         A full-stack multiplayer Pong game built entirely with TypeScript, using React.js and Tailwind CSS for a responsive, modern UI, and NestJS, PostgreSQL, and Prisma on the backend.\\Worked as part of a team to implement real-time gameplay, chat functionality, user profiles, and authentication. Emphasized modular design, clean architecture, and secure API development while maintaining seamless collaboration through Git and Agile workflows.
-    %         \vspace{0.10 cm}
-    %
-    %         \item \textbf{\href{https://github.com/mtellami/ft_transcendence}{HTTP server}}\\
-    %         Built a custom HTTP server in C++ as part of a team project, applying object-oriented programming (OOP) principles and low-level TCP socket programming to handle HTTP requests and responses. Gained a deep understanding of how web servers operate under the hood, including connection handling, parsing, routing, and response generation inspired by NGINX.
-    %         \end{highlights}
-    %     \end{onecolentry}
+        \begin{onecolentry}
+            \setlength{\leftskip}{0.3 cm}
+            Completed an intensive, project-based computer science program covering software development, algorithms, system design, and networking, with systems-level work in C/C++ and hands-on use of Linux, Bash, Git, and Docker — alongside data structures, databases, operating systems, network protocols, and security.
+        \end{onecolentry}
 
     % =========================== SKILLS ==========================
+    \vspace{0.20 cm}
     \section{Skills}
 
         \begin{onecolentry}
-            \textbf{Languages:} Java, Python, TypeScript, JavaScript, SQL, C/C++
+            \textbf{Programming Languages:} JavaScript/TypeScript, Python, C/C++
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.10 cm}
         
         \begin{onecolentry}
-            \textbf{Frontend:} React, Next.js, Angular, Tailwind CSS, PrimeNG, Shadcn, TanStack
+            \textbf{Frontend:} React/Next.js, Angular, Tailwind CSS/Shadcn UI, Mapbox GL, Vitest
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.10 cm}
         
         \begin{onecolentry}
-            \textbf{Backend:} SpringBoot, Django, FastAPI, NestJS, Express.js, WebSockets, Kafka
+            \textbf{Backend:} NestJS, Django, Keycloak/JWT, Prisma ORM/Mongoose, WebSockets, Pytest
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.10 cm}
         
         \begin{onecolentry}
-            \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis
+            \textbf{Databases:} PostgreSQL, MongoDB, Redis
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.10 cm}
         
         \begin{onecolentry}
-            \textbf{Tools:} Git, Docker, Bash, Linux, Azure DevOps, Jira
+            \textbf{Tools \& DevOps:} Linux/Bash, Git, Docker, GitHub Actions
         \end{onecolentry}
-        \vspace{0.2 cm}
+        \vspace{0.10 cm}
 
     % =========================== LANGUAGES ==========================
     \section{Languages}
         \textbf{Arabic:} Native
         \hspace{1 cm}
         \textbf{English:} Professional proficiency
-        \hspace{1 cm}
-        \textbf{French:} Elementary proficiency
 
 \end{document}
