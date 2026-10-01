@@ -1,10 +1,8 @@
-# Hi There, Welcome to my Github profile 👋
-
-I'm a **Software Engineer** based in ***Casablanca, Morocco***, Passionate about building scalable, high-performance apps.
+A **Software Engineer** based in ***Morocco***.
 <br/></br>
 Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/mtellami).
 
 
-## 🛠️ Technologies & Tools
+#### 🛠️ Technologies & Tools
 
-<img src="https://skillicons.dev/icons?i=git,bash,c,cpp,java,go,docker,nginx,html,css,js,tailwindcss,ts,react,redux,angular,rxjs,dart,flutter,nodejs,expressjs,nestjs,postgres,mysql,mongodb,redis" width="600"/>
+<img src="https://skillicons.dev/icons?i=git,bash,c,cpp,java,go,docker,nginx,js,tailwindcss,ts,react,angular,flutter,nodejs,nestjs,postgres,mysql,mongodb,redis,python,django,spring" height="50"/>
